@@ -37,7 +37,7 @@
                             <constraint firstItem="21" firstAttribute="top" secondItem="20" secondAttribute="bottom" constant="40" type="user" id="jX0-Wi-kmb"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="About" image="first" id="7"/>
+                    <tabBarItem key="tabBarItem" title="About" image="first.png" id="7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
             </objects>
@@ -212,7 +212,7 @@
                             <constraint firstItem="4f4-dq-fVt" firstAttribute="bottom" secondItem="17" secondAttribute="bottom" type="default" id="Ljx-7J-CtZ"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Estimate" image="second" id="6"/>
+                    <tabBarItem key="tabBarItem" title="Estimate" image="first.png" id="6"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="EstimateEmail" destination="ttX-9Q-VKo" id="lzQ-MH-8nx"/>
@@ -287,7 +287,7 @@
                             <constraint firstItem="qHm-0t-9NT" firstAttribute="leading" secondItem="LNw-2n-TgK" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="uty-zK-5Rh"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Contact" image="second" id="OkU-Ux-6hT"/>
+                    <tabBarItem key="tabBarItem" title="Contact" image="first.png" id="OkU-Ux-6hT"/>
                     <navigationItem key="navigationItem" id="TlI-Vi-PfG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AR0-xU-q63" sceneMemberID="firstResponder"/>
@@ -326,7 +326,7 @@
                             <constraint firstItem="ykC-gs-Jwi" firstAttribute="leading" secondItem="ZWd-pv-dTx" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="iCj-UB-lT7"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Gallery" image="second" id="Qfv-lK-raJ"/>
+                    <tabBarItem key="tabBarItem" title="Gallery" image="first.png" id="Qfv-lK-raJ"/>
                     <navigationItem key="navigationItem" id="2Za-ND-Nxb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N4U-cq-7QH" sceneMemberID="firstResponder"/>
@@ -335,18 +335,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="16" height="16"/>
-        <image name="second" width="16" height="16"/>
+        <image name="first.png" width="30" height="30"/>
     </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="PAFirstViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PAFirstViewController.h"/>
-        </class>
-        <class className="PASecondViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/PASecondViewController.h"/>
         </class>
         <class className="PAViewController_Estimate" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/PAViewController_Estimate.h"/>

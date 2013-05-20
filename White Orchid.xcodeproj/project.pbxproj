@@ -17,15 +17,9 @@
 		E484FE691747E62C00576CE7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E484FE681747E62C00576CE7 /* Default@2x.png */; };
 		E484FE6B1747E62C00576CE7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E484FE6A1747E62C00576CE7 /* Default-568h@2x.png */; };
 		E484FE6E1747E62C00576CE7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E484FE6C1747E62C00576CE7 /* MainStoryboard.storyboard */; };
-		E484FE711747E62C00576CE7 /* PAFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E484FE701747E62C00576CE7 /* PAFirstViewController.m */; };
 		E484FE731747E62C00576CE7 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = E484FE721747E62C00576CE7 /* first.png */; };
 		E484FE751747E62C00576CE7 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E484FE741747E62C00576CE7 /* first@2x.png */; };
-		E484FE781747E62C00576CE7 /* PASecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E484FE771747E62C00576CE7 /* PASecondViewController.m */; };
-		E484FE7A1747E62C00576CE7 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = E484FE791747E62C00576CE7 /* second.png */; };
-		E484FE7C1747E62C00576CE7 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E484FE7B1747E62C00576CE7 /* second@2x.png */; };
 		E484FE841747F42F00576CE7 /* PAViewController_Estimate.m in Sources */ = {isa = PBXBuildFile; fileRef = E484FE831747F42F00576CE7 /* PAViewController_Estimate.m */; };
-		E484FE871747F55000576CE7 /* radio-off.png in Resources */ = {isa = PBXBuildFile; fileRef = E484FE851747F55000576CE7 /* radio-off.png */; };
-		E484FE881747F55000576CE7 /* radio-on.png in Resources */ = {isa = PBXBuildFile; fileRef = E484FE861747F55000576CE7 /* radio-on.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,18 +37,10 @@
 		E484FE681747E62C00576CE7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		E484FE6A1747E62C00576CE7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E484FE6D1747E62C00576CE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		E484FE6F1747E62C00576CE7 /* PAFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAFirstViewController.h; sourceTree = "<group>"; };
-		E484FE701747E62C00576CE7 /* PAFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAFirstViewController.m; sourceTree = "<group>"; };
 		E484FE721747E62C00576CE7 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		E484FE741747E62C00576CE7 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		E484FE761747E62C00576CE7 /* PASecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PASecondViewController.h; sourceTree = "<group>"; };
-		E484FE771747E62C00576CE7 /* PASecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PASecondViewController.m; sourceTree = "<group>"; };
-		E484FE791747E62C00576CE7 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		E484FE7B1747E62C00576CE7 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		E484FE821747F42F00576CE7 /* PAViewController_Estimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAViewController_Estimate.h; sourceTree = "<group>"; };
 		E484FE831747F42F00576CE7 /* PAViewController_Estimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAViewController_Estimate.m; sourceTree = "<group>"; };
-		E484FE851747F55000576CE7 /* radio-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-off.png"; sourceTree = "<group>"; };
-		E484FE861747F55000576CE7 /* radio-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio-on.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,14 +92,6 @@
 				E484FE6C1747E62C00576CE7 /* MainStoryboard.storyboard */,
 				E484FE821747F42F00576CE7 /* PAViewController_Estimate.h */,
 				E484FE831747F42F00576CE7 /* PAViewController_Estimate.m */,
-				E484FE6F1747E62C00576CE7 /* PAFirstViewController.h */,
-				E484FE701747E62C00576CE7 /* PAFirstViewController.m */,
-				E484FE721747E62C00576CE7 /* first.png */,
-				E484FE741747E62C00576CE7 /* first@2x.png */,
-				E484FE761747E62C00576CE7 /* PASecondViewController.h */,
-				E484FE771747E62C00576CE7 /* PASecondViewController.m */,
-				E484FE791747E62C00576CE7 /* second.png */,
-				E484FE7B1747E62C00576CE7 /* second@2x.png */,
 				E484FE5B1747E62C00576CE7 /* Supporting Files */,
 			);
 			path = "White Orchid";
@@ -122,11 +100,11 @@
 		E484FE5B1747E62C00576CE7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E484FE721747E62C00576CE7 /* first.png */,
+				E484FE741747E62C00576CE7 /* first@2x.png */,
 				E484FE5C1747E62C00576CE7 /* White Orchid-Info.plist */,
 				E484FE5D1747E62C00576CE7 /* InfoPlist.strings */,
 				E484FE601747E62C00576CE7 /* main.m */,
-				E484FE851747F55000576CE7 /* radio-off.png */,
-				E484FE861747F55000576CE7 /* radio-on.png */,
 				E484FE621747E62C00576CE7 /* White Orchid-Prefix.pch */,
 				E484FE661747E62C00576CE7 /* Default.png */,
 				E484FE681747E62C00576CE7 /* Default@2x.png */,
@@ -194,10 +172,6 @@
 				E484FE6E1747E62C00576CE7 /* MainStoryboard.storyboard in Resources */,
 				E484FE731747E62C00576CE7 /* first.png in Resources */,
 				E484FE751747E62C00576CE7 /* first@2x.png in Resources */,
-				E484FE7A1747E62C00576CE7 /* second.png in Resources */,
-				E484FE7C1747E62C00576CE7 /* second@2x.png in Resources */,
-				E484FE871747F55000576CE7 /* radio-off.png in Resources */,
-				E484FE881747F55000576CE7 /* radio-on.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,8 +184,6 @@
 			files = (
 				E484FE611747E62C00576CE7 /* main.m in Sources */,
 				E484FE651747E62C00576CE7 /* PAAppDelegate.m in Sources */,
-				E484FE711747E62C00576CE7 /* PAFirstViewController.m in Sources */,
-				E484FE781747E62C00576CE7 /* PASecondViewController.m in Sources */,
 				E484FE841747F42F00576CE7 /* PAViewController_Estimate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,6 +307,7 @@
 				E484FE811747E62C00576CE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
