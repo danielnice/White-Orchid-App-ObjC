@@ -100,6 +100,11 @@
 		21CA4427174F1A67004B8E95 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E484FE721747E62C00576CE7 /* first.png */,
+				E484FE741747E62C00576CE7 /* first@2x.png */,
+				E484FE661747E62C00576CE7 /* Default.png */,
+				E484FE681747E62C00576CE7 /* Default@2x.png */,
+				E484FE6A1747E62C00576CE7 /* Default-568h@2x.png */,
 				211388F2174F22CB002AB04E /* Icons */,
 				21CA4428174F1A6E004B8E95 /* Gallery */,
 			);
@@ -155,25 +160,12 @@
 				E484FE6C1747E62C00576CE7 /* MainStoryboard.storyboard */,
 				E484FE821747F42F00576CE7 /* PAViewController_Estimate.h */,
 				E484FE831747F42F00576CE7 /* PAViewController_Estimate.m */,
-				E484FE5B1747E62C00576CE7 /* Supporting Files */,
-			);
-			path = "White Orchid";
-			sourceTree = "<group>";
-		};
-		E484FE5B1747E62C00576CE7 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E484FE721747E62C00576CE7 /* first.png */,
-				E484FE741747E62C00576CE7 /* first@2x.png */,
 				E484FE5C1747E62C00576CE7 /* White Orchid-Info.plist */,
 				E484FE5D1747E62C00576CE7 /* InfoPlist.strings */,
 				E484FE601747E62C00576CE7 /* main.m */,
 				E484FE621747E62C00576CE7 /* White Orchid-Prefix.pch */,
-				E484FE661747E62C00576CE7 /* Default.png */,
-				E484FE681747E62C00576CE7 /* Default@2x.png */,
-				E484FE6A1747E62C00576CE7 /* Default-568h@2x.png */,
 			);
-			name = "Supporting Files";
+			path = "White Orchid";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

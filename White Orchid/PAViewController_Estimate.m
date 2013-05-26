@@ -24,7 +24,7 @@
 @synthesize EstimateSelectBreakfastNook;
 @synthesize EstimateSelectBasement;
 @synthesize EstimateSelectPatio;
-@synthesize EstimateStateSelect;
+@synthesize StateSelect;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -99,7 +99,7 @@
     }
     float RoomValue = Base + Basement + Office + GreatRoom + BreakfastNook + Patio;
 // Make Minimum 4 for Colorado house under $400,000
-    if([EstimateStateSelect selectedSegmentIndex] == 0){ //Colorado
+    if([StateSelect selectedSegmentIndex] == 0){ //Colorado
         if (ListValueInt < 400000 && RoomValue < 4) {
             RoomValue = 4;
         }
@@ -111,7 +111,7 @@
     int dollar;
     float servicemuiltiplyer;
     
-    if([EstimateStateSelect selectedSegmentIndex] == 0){ //Colorado
+    if([StateSelect selectedSegmentIndex] == 0){ //Colorado
         //Calulate Dollar Muiltiplyer for CO
         if (ListValueInt < 400000) {
             dollar = 150;
@@ -140,7 +140,7 @@
         } else {
             servicemuiltiplyer = 2;
         }
-    } else if([EstimateStateSelect selectedSegmentIndex] == 1){ //California
+    } else if([StateSelect selectedSegmentIndex] == 1){ //California
         //Calulate Dollar Muiltiplyer for CA
         if (ListValueInt < 2000000) {
             dollar = 400;

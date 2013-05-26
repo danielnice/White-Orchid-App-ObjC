@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--First View Controller - First-->
+        <!--View Controller - First-->
         <scene sceneID="11">
             <objects>
-                <viewController title="First" id="2" customClass="PAFirstViewController" sceneMemberID="viewController">
+                <viewController title="First" id="2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="16">
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -275,10 +275,10 @@
             </objects>
             <point key="canvasLocation" x="-140" y="284"/>
         </scene>
-        <!--Second View Controller - Second-->
+        <!--View Controller - Second-->
         <scene sceneID="z5C-qk-GIs">
             <objects>
-                <viewController title="Second" id="o49-03-NB3" customClass="PASecondViewController" sceneMemberID="viewController">
+                <viewController title="Second" id="o49-03-NB3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LNw-2n-TgK">
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
