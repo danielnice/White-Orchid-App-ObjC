@@ -30,4 +30,6 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *EstimateResult;
 
+@property (weak, nonatomic) IBOutlet UISegmentedControl *StateSelect;
+
 @end

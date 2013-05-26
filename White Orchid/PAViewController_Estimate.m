@@ -24,6 +24,7 @@
 @synthesize EstimateSelectBreakfastNook;
 @synthesize EstimateSelectBasement;
 @synthesize EstimateSelectPatio;
+@synthesize StateSelect;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -53,8 +54,18 @@
     NSNumberFormatter *f = [[NSNumberFormatter alloc] init];
     NSNumber * ListValue = [f numberFromString:[EstimateListPrice text]];
     int ListValueInt = [ListValue intValue];
+    
+    //State Select Text
+//    NSString *State;
+//    if([StateSelect selectedSegmentIndex] == 0){
+//        State = @"Colorado";
+//    }
+//    else if([StateSelect selectedSegmentIndex] == 1){
+//        State = @"California";
+//    }
+//    NSLog(@"State = %@", State);
 
-    //Create Room Values
+//Create Room Values
     float Base = 3;
     float Basement;
     float Office;
@@ -62,7 +73,7 @@
     float BreakfastNook;
     float Patio;
     if([EstimateSelectBasement isOn] == YES){
-        Basement = 1;
+        Basement = 2;
     } else {
         Basement = 0;
     }
@@ -87,62 +98,73 @@
         Patio = 0;
     }
     float RoomValue = Base + Basement + Office + GreatRoom + BreakfastNook + Patio;
-    
-    if (ListValueInt < 400000 && RoomValue < 4) {
-        RoomValue = 4;
+// Make Minimum 4 for Colorado house under $400,000
+    if([StateSelect selectedSegmentIndex] == 0){ //Colorado
+        if (ListValueInt < 400000 && RoomValue < 4) {
+            RoomValue = 4;
+        }
     }
+
+    //NSLog(@"Room value = %.1f", RoomValue);
     
-    NSLog(@"Room value = %.1f", RoomValue);
-    
-    
-    //Create state variable...
-    
-    //Calulate Dollar Muiltiplyer
+    //Calulate Dollar & Service Muiltiplyer
     int dollar;
-    
-    if (ListValueInt < 400000) {
-        dollar = 150;
-    } else if (ListValueInt >= 400000 && ListValueInt < 800000) {
-        dollar = 250;
-    } else if (ListValueInt >= 800000 && ListValueInt < 1200000) {
-        dollar = 300;
-    } else if (ListValueInt >= 1200000 && ListValueInt < 5000000) {
-        dollar = 400;
-    } else if (ListValueInt >= 5000000 && ListValueInt < 10000000) {
-        dollar = 500;
-    } else {
-        dollar = 600;
-    }
-    
-    NSLog(@"Dollar = %d", dollar);
-    
-    //Create Service Muiltiplyer
     float servicemuiltiplyer;
-    if (ListValueInt < 400000) {
-        servicemuiltiplyer = 1;
-    } else if (ListValueInt >= 400000 && ListValueInt < 800000) {
-        servicemuiltiplyer = 1;
-    } else if (ListValueInt >= 800000 && ListValueInt < 1200000) {
-        servicemuiltiplyer = 1.5;
-    } else if (ListValueInt >= 1200000 && ListValueInt < 5000000) {
-        servicemuiltiplyer = 2;
-    } else if (ListValueInt >= 5000000 && ListValueInt < 10000000) {
-        servicemuiltiplyer = 2;
-    } else {
+    
+    if([StateSelect selectedSegmentIndex] == 0){ //Colorado
+        //Calulate Dollar Muiltiplyer for CO
+        if (ListValueInt < 400000) {
+            dollar = 150;
+        } else if (ListValueInt >= 400000 && ListValueInt < 800000) {
+            dollar = 250;
+        } else if (ListValueInt >= 800000 && ListValueInt < 1200000) {
+            dollar = 300;
+        } else if (ListValueInt >= 1200000 && ListValueInt < 5000000) {
+            dollar = 400;
+        } else if (ListValueInt >= 5000000 && ListValueInt < 10000000) {
+            dollar = 500;
+        } else {
+            dollar = 600;
+        }
+        //Create Service Muiltiplyer for CO
+        if (ListValueInt < 400000) {
+            servicemuiltiplyer = 1;
+        } else if (ListValueInt >= 400000 && ListValueInt < 800000) {
+            servicemuiltiplyer = 1;
+        } else if (ListValueInt >= 800000 && ListValueInt < 1200000) {
+            servicemuiltiplyer = 1.5;
+        } else if (ListValueInt >= 1200000 && ListValueInt < 5000000) {
+            servicemuiltiplyer = 2;
+        } else if (ListValueInt >= 5000000 && ListValueInt < 10000000) {
+            servicemuiltiplyer = 2;
+        } else {
+            servicemuiltiplyer = 2;
+        }
+    } else if([StateSelect selectedSegmentIndex] == 1){ //California
+        //Calulate Dollar Muiltiplyer for CA
+        if (ListValueInt < 2000000) {
+            dollar = 400;
+        } else if (ListValueInt >= 2000000 && ListValueInt < 4000000) {
+            dollar = 600;
+        } else {
+            dollar = 800;
+        }
+        //Return Service Muiltipler for CA
         servicemuiltiplyer = 2;
     }
     
-    NSLog(@"Service Muiltiplyer = %.2f", servicemuiltiplyer);
+    //NSLog(@"Dollar = %d", dollar);
+    //NSLog(@"Service Muiltiplyer = %.2f", servicemuiltiplyer);
     
     //Calculate total cost
     int rentalfee = RoomValue * dollar;
-    NSLog(@"Rental Fee = %d", rentalfee);
+    //NSLog(@"Rental Fee = %d", rentalfee);
     
     int servicefee = rentalfee * servicemuiltiplyer;
-    NSLog(@"Service Fee = %d", servicefee);
+    //NSLog(@"Service Fee = %d", servicefee);
     
     int total = rentalfee + servicefee;
-    NSLog(@"Total = %d", total);
+    //NSLog(@"Total = %d", total);
 
     //Run Calulcation
     if (ListValue == nil) {
