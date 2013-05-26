@@ -56,12 +56,12 @@
     //NSLog(@"The value is %d", [ListValue]);
 
     //Create Room Values
-    int Base = 3;
-    int Basement;
-    int Office;
-    int GreatRoom;
-    int BreakfastNook;
-    int Patio;
+    float Base = 3;
+    float Basement;
+    float Office;
+    float GreatRoom;
+    float BreakfastNook;
+    float Patio;
     if([EstimateSelectBasement isOn] == YES){
         Basement = 1;
     } else {
@@ -87,9 +87,9 @@
     } else {
         Patio = 0;
     }
-    int RoomValue = Base + Basement + Office + GreatRoom + BreakfastNook + Patio;
+    float RoomValue = Base + Basement + Office + GreatRoom + BreakfastNook + Patio;
     
-    NSLog(@"The room muiltiplyer is %d", RoomValue);
+    NSLog(@"The room muiltiplyer is %.1f", RoomValue);
     
     //Calulate Dollar Muiltiplyer
     //Create state variable...
