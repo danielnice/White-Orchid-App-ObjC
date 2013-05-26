@@ -52,8 +52,7 @@
     
     NSNumberFormatter *f = [[NSNumberFormatter alloc] init];
     NSNumber * ListValue = [f numberFromString:[EstimateListPrice text]];
-    
-    //NSLog(@"The value is %d", [ListValue]);
+    int ListValueInt = [ListValue intValue];
 
     //Create Room Values
     float Base = 3;
@@ -89,46 +88,63 @@
     }
     float RoomValue = Base + Basement + Office + GreatRoom + BreakfastNook + Patio;
     
-    NSLog(@"The room muiltiplyer is %.1f", RoomValue);
+    if (ListValueInt < 400000 && RoomValue < 4) {
+        RoomValue = 4;
+    }
     
-    //Calulate Dollar Muiltiplyer
+    NSLog(@"Room value = %.1f", RoomValue);
+    
+    
     //Create state variable...
     
-//    if ([ListValue] < 400000 && RoomValue < 4) {
-//        RoomValue = 4;
-//    }
-//    if (ListValue < 400000) {
-//        $dollar = 150;
-//    } elseif (ListValue >= 400000 && ListValue < 800000) {
-//        $dollar = 250;
-//    } elseif (ListValue >= 800000 && ListValue < 1200000) {
-//        $dollar = 300;
-//    } elseif (ListValue >= 1200000 && ListValue < 5000000) {
-//        $dollar = 400;
-//    } elseif (ListValue >= 5000000 && ListValue < 10000000) {
-//        $dollar = 500;
-//    } elseif (ListValue >= 10000000) {
-//        $dollar = 600;
-//    }
-//    if (ListValue < 400000) {
-//        $servicemuiltiplyer = 1;
-//    } elseif (ListValue >= 400000 && ListValue < 800000) {
-//        $servicemuiltiplyer = 1;
-//    } elseif (ListValue >= 800000 && ListValue < 1200000) {
-//        $servicemuiltiplyer = 1.5;
-//    } elseif (ListValue >= 1200000 && ListValue < 5000000) {
-//        $servicemuiltiplyer = 2;
-//    } elseif (ListValue >= 5000000 && ListValue < 10000000) {
-//        $servicemuiltiplyer = 2;
-//    } elseif (ListValue >= 10000000) {
-//        $servicemuiltiplyer = 2;
-//    }
-//    $rentalfee = RoomValue * $dollar;
-//    $servicefee = $rentalfee * $servicemuiltiplyer;
-//    $total = $rentalfee + $servicefee;
+    //Calulate Dollar Muiltiplyer
+    int dollar;
+    
+    if (ListValueInt < 400000) {
+        dollar = 150;
+    } else if (ListValueInt >= 400000 && ListValueInt < 800000) {
+        dollar = 250;
+    } else if (ListValueInt >= 800000 && ListValueInt < 1200000) {
+        dollar = 300;
+    } else if (ListValueInt >= 1200000 && ListValueInt < 5000000) {
+        dollar = 400;
+    } else if (ListValueInt >= 5000000 && ListValueInt < 10000000) {
+        dollar = 500;
+    } else {
+        dollar = 600;
+    }
+    
+    NSLog(@"Dollar = %d", dollar);
+    
+    //Create Service Muiltiplyer
+    float servicemuiltiplyer;
+    if (ListValueInt < 400000) {
+        servicemuiltiplyer = 1;
+    } else if (ListValueInt >= 400000 && ListValueInt < 800000) {
+        servicemuiltiplyer = 1;
+    } else if (ListValueInt >= 800000 && ListValueInt < 1200000) {
+        servicemuiltiplyer = 1.5;
+    } else if (ListValueInt >= 1200000 && ListValueInt < 5000000) {
+        servicemuiltiplyer = 2;
+    } else if (ListValueInt >= 5000000 && ListValueInt < 10000000) {
+        servicemuiltiplyer = 2;
+    } else {
+        servicemuiltiplyer = 2;
+    }
+    
+    NSLog(@"Service Muiltiplyer = %.2f", servicemuiltiplyer);
+    
+    //Calculate total cost
+    int rentalfee = RoomValue * dollar;
+    NSLog(@"Rental Fee = %d", rentalfee);
+    
+    int servicefee = rentalfee * servicemuiltiplyer;
+    NSLog(@"Service Fee = %d", servicefee);
+    
+    int total = rentalfee + servicefee;
+    NSLog(@"Total = %d", total);
 
-    
-    
+    //Run Calulcation
     if (ListValue == nil) {
         UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Error" message:@"You forgot to enter a list price" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
         [alertView show];
@@ -136,78 +152,9 @@
         if ([EstimateVacant isOn] == YES) {
             [EstimateResult setText:@"Stage Your Home from $150 with a White Orchid Design Coordinator"];
         } else {
-            if (ListValue > 0) {
-                [EstimateResult setText:@"Value > 0"];
-            }
+            [EstimateResult setText:[NSString stringWithFormat:@"Cost = %d", total]];
         }
     }
-    
-
-
-//    //Post Variables
-//    $state = $_GET["state"];
-//    $list = $_GET["list"];
-//    $roomvalue = $_GET["roomvalue"];
-//    if ($list < 400000 && $roomvalue < 4) {$roomvalue = 4;}
-//    if ($list < 400000) {
-//        $dollar = 150;
-//    } elseif ($list >= 400000 && $list < 800000) {
-//        $dollar = 250;
-//    } elseif ($list >= 800000 && $list < 1200000) {
-//        $dollar = 300;
-//    } elseif ($list >= 1200000 && $list < 5000000) {
-//        $dollar = 400;
-//    } elseif ($list >= 5000000 && $list < 10000000) {
-//        $dollar = 500;
-//    } elseif ($list >= 10000000) {
-//        $dollar = 600;
-//    }
-//    if ($list < 400000) {
-//        $servicemuiltiplyer = 1;
-//    } elseif ($list >= 400000 && $list < 800000) {
-//        $servicemuiltiplyer = 1;
-//    } elseif ($list >= 800000 && $list < 1200000) {
-//        $servicemuiltiplyer = 1.5;
-//    } elseif ($list >= 1200000 && $list < 5000000) {
-//        $servicemuiltiplyer = 2;
-//    } elseif ($list >= 5000000 && $list < 10000000) {
-//        $servicemuiltiplyer = 2;
-//    } elseif ($list >= 10000000) {
-//        $servicemuiltiplyer = 2;
-//    }
-//    $rentalfee = $roomvalue * $dollar;
-//    $servicefee = $rentalfee * $servicemuiltiplyer;
-//    $total = $rentalfee + $servicefee;
-//    ?>
-//    <?php get_header(); ?>
-//    <?php if(have_posts()) : the_post(); ?>
-//    <?php require('banner.php'); ?>
-//    <?php $type = $_GET["type"]; if ($type=='Vacant') { ?>
-//        <div class="contentwindow_wrapper">
-//        <div class="html_wrapper quote-result">
-//        <?php while(the_flexible_field("sections")): ?>
-//            <?php if(get_row_layout() == "content"): ?>
-//                <?php the_sub_field('content'); ?>
-//        <?php elseif(get_row_layout() == "quote_result"): ?>
-//        <h1 class='estimate'>
-//        <?php the_sub_field('text_before'); ?><?php echo number_format($total); ?><?php the_sub_field('text_after'); ?>
-//        
-//        </h1>
-//        <?php endif; ?>
-//        <?php endwhile; ?>
-//        </div>
-//        </div>
-//        <?php } else { ?>
-//            <div class="contentwindow_wrapper">
-//            <div class="html_wrapper quote-result">
-//            <?php the_field('occupied_staging_content'); ?>
-//            </div>
-//            </div>
-//            <?php } ?>
-    
-    
-    
-    
     
 }
 
