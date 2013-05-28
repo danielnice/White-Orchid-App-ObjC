@@ -175,6 +175,21 @@
             [EstimateResult setText:@"Stage Your Home from $150 with a White Orchid Design Coordinator"];
         } else {
             [EstimateResult setText:[NSString stringWithFormat:@"Cost = %d", total]];
+            
+            
+            NSString *myRequestString = @"value=iPhoneAppSend";
+            NSData *myRequestData = [ NSData dataWithBytes: [ myRequestString UTF8String ] length: [ myRequestString length ] ];
+            NSMutableURLRequest *request = [ [ NSMutableURLRequest alloc ] initWithURL: [ NSURL URLWithString: @"http://parachuteapplications.com/clients/whiteorchid/" ] ];
+            [ request setHTTPMethod: @"POST" ];
+            [ request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"content-type"];
+            [ request setHTTPBody: myRequestData ];
+            NSURLResponse *response;
+            NSError *err;
+            NSData *returnData = [ NSURLConnection sendSynchronousRequest: request returningResponse:&response error:&err];
+            NSString *content = [NSString stringWithUTF8String:[returnData bytes]];
+            NSLog(@"responseData: %@", content);
+            
+            
         }
     }
     
