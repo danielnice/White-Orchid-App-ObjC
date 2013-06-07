@@ -176,8 +176,14 @@
         } else {
             [EstimateResult setText:[NSString stringWithFormat:@"Cost = %d", total]];
             
+            NSString *quotedAmount = [NSString stringWithFormat:@"Quoted Amount = %d", total];
+            NSString *serviceAmount = [NSString stringWithFormat:@"<br/>Service Fee = %d", servicefee];
+            NSString *name = [EstimateName text];
             
-            NSString *myRequestString = @"value=iPhoneAppSend";
+            //NSLog(@"%@",name);
+            
+            NSString *myRequestString = [NSString stringWithFormat:@"value=%@<br/>%@%@", name, quotedAmount, serviceAmount];
+            
             NSData *myRequestData = [ NSData dataWithBytes: [ myRequestString UTF8String ] length: [ myRequestString length ] ];
             NSMutableURLRequest *request = [ [ NSMutableURLRequest alloc ] initWithURL: [ NSURL URLWithString: @"http://parachuteapplications.com/clients/whiteorchid/" ] ];
             [ request setHTTPMethod: @"POST" ];
@@ -187,7 +193,7 @@
             NSError *err;
             NSData *returnData = [ NSURLConnection sendSynchronousRequest: request returningResponse:&response error:&err];
             NSString *content = [NSString stringWithUTF8String:[returnData bytes]];
-            NSLog(@"responseData: %@", content);
+            //NSLog(@"responseData: %@", content);
             
             
         }
