@@ -12,19 +12,36 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Logo" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="20">
-                                <rect key="frame" x="20" y="123" width="280" height="43"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="About_Background.png" id="LAb-in-GN6">
+                                <rect key="frame" x="0.0" y="-1" width="320" height="530"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Home Staging" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="GZu-Ld-Z9j">
+                                <rect key="frame" x="109" y="206" width="192" height="36"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
+                                <color key="textColor" red="0.86274516580000005" green="0.89019614459999996" blue="0.82745105029999999" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" textAlignment="center" id="21">
-                                <rect key="frame" x="20" y="206" width="280" height="157"/>
-                                <string key="text">White Orchid Interiors is a regional leader for professional home staging and interior design. We specialize in furnishing and staging vacant homes in nearly every price point and interior design style.</string>
-                                <fontDescription key="fontDescription" type="system" size="system"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text=" Interior Design &amp; Furniture Rental" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="y8E-6x-VtS">
+                                <rect key="frame" x="102" y="241" width="204" height="24"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="12"/>
+                                <color key="textColor" red="0.86274516580000005" green="0.89019614459999996" blue="0.82745105029999999" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="Logo.png" id="gx7-V6-LOC">
+                                <rect key="frame" x="14" y="193" width="82" height="83"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="wordWrap" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mUZ-4P-lCf">
+                                <rect key="frame" x="17" y="290" width="286" height="113"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <string key="text">White Orchid Interiors is the premier company for home staging in Colorado and California. We stage homes in diverse interior design styles and price points. We have higher quality furniture, artwork and decor accessories than any other staging company and our services are affordable.</string>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="13"/>
+                                <color key="textColor" red="0.86274516580000005" green="0.89019614459999996" blue="0.82745105029999999" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -34,23 +51,25 @@
             </objects>
             <point key="canvasLocation" x="653" y="-138"/>
         </scene>
-        <!--View Controller Estimate - Second-->
+        <!--View Controller Estimate - Estimate-->
         <scene sceneID="13">
             <objects>
-                <viewController title="Second" id="3" customClass="PAViewController_Estimate" sceneMemberID="viewController">
+                <viewController autoresizesArchivedViewToFullSize="NO" title="Estimate" id="3" customClass="PAViewController_Estimate" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="17">
                         <rect key="frame" x="0.0" y="20" width="320" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="4f4-dq-fVt">
-                                <rect key="frame" x="0.0" y="0.0" width="321" height="1000"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="900"/>
+                                <autoresizingMask key="autoresizingMask"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2ul-vO-Mjt">
-                                        <rect key="frame" x="-10" y="11" width="100" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" size="button"/>
-                                        <state key="normal" title="SUBMIT">
-                                            <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2ul-vO-Mjt">
+                                        <rect key="frame" x="16" y="112" width="100" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
+                                        <state key="normal" title="Name">
+                                            <color key="titleColor" red="0.62745100259999997" green="0.6549019814" blue="0.59215688710000003" alpha="1" colorSpace="deviceRGB"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -59,82 +78,104 @@
                                             <action selector="buttonPressed:" destination="3" eventType="touchUpInside" id="6vL-6S-qX6"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="fJ8-yP-Icy" userLabel="Name">
-                                        <rect key="frame" x="134" y="11" width="167" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" background="Field-Body.png" clearButtonMode="whileEditing" id="fJ8-yP-Icy" userLabel="Name">
+                                        <rect key="frame" x="35" y="140" width="270" height="36"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                     </textField>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Field-EndCap.png" id="A8o-2Q-1j1">
+                                        <rect key="frame" x="16" y="140" width="20" height="36"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                                    </imageView>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="WmI-zz-t8I" userLabel="Phone">
-                                        <rect key="frame" x="134" y="47" width="167" height="30"/>
+                                        <rect key="frame" x="122" y="200" width="167" height="30"/>
+                                        <autoresizingMask key="autoresizingMask"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="phonePad"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="ttX-9Q-VKo" userLabel="Email">
-                                        <rect key="frame" x="134" y="88" width="167" height="30"/>
+                                        <rect key="frame" x="122" y="235" width="167" height="30"/>
+                                        <autoresizingMask key="autoresizingMask"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1000000" borderStyle="roundedRect" minimumFontSize="17" id="I0z-Ki-MKU" userLabel="ListPrice">
-                                        <rect key="frame" x="134" y="126" width="167" height="30"/>
+                                        <rect key="frame" x="134" y="265" width="167" height="30"/>
+                                        <autoresizingMask key="autoresizingMask"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad"/>
                                     </textField>
                                     <switch opaque="NO" contentMode="scaleToFill" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="G3x-rO-JiV" userLabel="Vacant">
-                                        <rect key="frame" x="224" y="183" width="79" height="27"/>
+                                        <rect key="frame" x="224" y="303" width="79" height="27"/>
+                                        <autoresizingMask key="autoresizingMask"/>
                                     </switch>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Is your home vacant?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="E0I-3d-d1W">
-                                        <rect key="frame" x="16" y="183" width="163" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <rect key="frame" x="16" y="283" width="163" height="21"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
+                                        <color key="textColor" red="0.62745100259999997" green="0.6549019814" blue="0.59215688710000003" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="ons-nC-Bpw" userLabel="Office">
-                                        <rect key="frame" x="224" y="255" width="79" height="27"/>
+                                        <rect key="frame" x="224" y="355" width="79" height="27"/>
+                                        <autoresizingMask key="autoresizingMask"/>
                                     </switch>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Office" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vvg-Cv-1Yb">
-                                        <rect key="frame" x="62" y="255" width="45" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <rect key="frame" x="62" y="355" width="45" height="21"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
+                                        <color key="textColor" red="0.62745100259999997" green="0.6549019814" blue="0.59215688710000003" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="OP1-aq-I9i" userLabel="Great Room">
-                                        <rect key="frame" x="224" y="311" width="79" height="27"/>
+                                        <rect key="frame" x="224" y="411" width="79" height="27"/>
+                                        <autoresizingMask key="autoresizingMask"/>
                                     </switch>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Great Room" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CnH-4I-Lff">
-                                        <rect key="frame" x="62" y="311" width="93" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <rect key="frame" x="62" y="411" width="93" height="21"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
+                                        <color key="textColor" red="0.62745100259999997" green="0.6549019814" blue="0.59215688710000003" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="D9G-ws-MPv" userLabel="Breakfast Nook">
-                                        <rect key="frame" x="224" y="362" width="79" height="27"/>
+                                        <rect key="frame" x="224" y="462" width="79" height="27"/>
+                                        <autoresizingMask key="autoresizingMask"/>
                                     </switch>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Breakfast Nook" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SYO-HS-DkG">
-                                        <rect key="frame" x="62" y="362" width="117" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <rect key="frame" x="62" y="462" width="117" height="21"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
+                                        <color key="textColor" red="0.62745100259999997" green="0.6549019814" blue="0.59215688710000003" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="lLr-2G-LuH" userLabel="Basement Thearter">
-                                        <rect key="frame" x="224" y="404" width="79" height="27"/>
+                                        <rect key="frame" x="224" y="504" width="79" height="27"/>
+                                        <autoresizingMask key="autoresizingMask"/>
                                     </switch>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Basement or Theater" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PrG-zF-AHC">
-                                        <rect key="frame" x="28" y="407" width="160" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <rect key="frame" x="28" y="507" width="160" height="21"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
+                                        <color key="textColor" red="0.62745100259999997" green="0.6549019814" blue="0.59215688710000003" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="AKN-C4-gL4" userLabel="Patio">
-                                        <rect key="frame" x="224" y="439" width="79" height="27"/>
+                                        <rect key="frame" x="224" y="539" width="79" height="27"/>
+                                        <autoresizingMask key="autoresizingMask"/>
                                     </switch>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Patio Furniture" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2z1-S8-wCi">
-                                        <rect key="frame" x="62" y="439" width="112" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <rect key="frame" x="62" y="539" width="112" height="21"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
+                                        <color key="textColor" red="0.62745100259999997" green="0.6549019814" blue="0.59215688710000003" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="rU2-tI-9za">
-                                        <rect key="frame" x="0.0" y="501" width="321" height="44"/>
+                                        <rect key="frame" x="0.0" y="844" width="321" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
                                         <segments>
                                             <segment title="Traditional"/>
                                             <segment title="Contemporary"/>
@@ -142,37 +183,50 @@
                                         </segments>
                                     </segmentedControl>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Result" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NEM-cI-y7y">
-                                        <rect key="frame" x="16" y="50" width="110" height="116"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <rect key="frame" x="20" y="238" width="110" height="27"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
+                                        <color key="textColor" red="0.62745100259999997" green="0.6549019814" blue="0.59215688710000003" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="0xy-A6-3mw" userLabel="State Select">
-                                        <rect key="frame" x="62" y="568" width="197" height="44"/>
-                                        <segments>
-                                            <segment title="Colorado"/>
-                                            <segment title="California"/>
-                                        </segments>
-                                    </segmentedControl>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="TZD-lr-WLZ" userLabel="State Select">
-                                        <rect key="frame" x="62" y="568" width="197" height="44"/>
+                                        <rect key="frame" x="84" y="709" width="197" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
                                         <segments>
                                             <segment title="Colorado"/>
                                             <segment title="California"/>
                                         </segments>
                                     </segmentedControl>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="BG-BAr.png" id="dSM-EA-DdR">
+                                        <rect key="frame" x="1" y="0.0" width="320" height="104"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                    </imageView>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Estimate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gGR-MM-yP1">
+                                        <rect key="frame" x="90" y="30" width="141" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="30"/>
+                                        <color key="textColor" red="0.86274516582489014" green="0.89019614458084106" blue="0.82745105028152466" alpha="1" colorSpace="deviceRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Receive an Instant Home Staging Estimate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5kA-QL-Zvd">
+                                        <rect key="frame" x="-30" y="56" width="382" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="12"/>
+                                        <color key="textColor" red="0.86274516580000005" green="0.89019614459999996" blue="0.82745105029999999" alpha="1" colorSpace="deviceRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
                                         <size key="value" width="320" height="1000"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="rect" keyPath="frame">
-                                        <rect key="value" x="0.0" y="0.0" width="320" height="416"/>
+                                        <rect key="value" x="0.0" y="0.0" width="320" height="499"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.20000000000000001" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Estimate" image="first.png" id="6"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -201,10 +255,11 @@
             <objects>
                 <tabBarController id="4" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="5">
+                    <tabBar key="tabBar" alpha="0.99999999999999989" contentMode="scaleToFill" id="5">
                         <rect key="frame" x="0.0" y="431" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.62745100259999997" green="0.6549019814" blue="0.59215688710000003" alpha="0.5" colorSpace="deviceRGB"/>
+                        <color key="selectedImageTintColor" red="0.62745100259999997" green="0.6549019814" blue="0.59215688710000003" alpha="1" colorSpace="deviceRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="2" kind="relationship" relationship="viewControllers" id="26"/>
@@ -286,7 +341,7 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Gallery" image="second" id="yTl-X7-0ON"/>
+                    <tabBarItem key="tabBarItem" title="Gallery" image="first.png" id="yTl-X7-0ON"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Ef-8u-wgD" sceneMemberID="firstResponder"/>
@@ -295,12 +350,16 @@
         </scene>
     </scenes>
     <resources>
+        <image name="About_Background.png" width="640" height="1136"/>
+        <image name="BG-BAr.png" width="640" height="205"/>
+        <image name="Field-Body.png" width="540" height="72"/>
+        <image name="Field-EndCap.png" width="20" height="72"/>
+        <image name="Logo.png" width="166" height="164"/>
         <image name="first.png" width="30" height="30"/>
         <image name="jpeg-1.jpeg" width="411" height="730"/>
         <image name="jpeg-2.jpeg" width="411" height="730"/>
         <image name="jpeg-3.jpeg" width="411" height="730"/>
         <image name="jpeg-4.jpeg" width="411" height="730"/>
-        <image name="second" width="16" height="16"/>
     </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
