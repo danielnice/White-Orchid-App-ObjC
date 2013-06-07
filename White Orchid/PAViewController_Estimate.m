@@ -172,9 +172,13 @@
         [alertView show];
     } else {
         if ([EstimateVacant isOn] == YES) {
-            [EstimateResult setText:@"Stage Your Home from $150 with a White Orchid Design Coordinator"];
+            UIAlertView *stagePriceView = [[UIAlertView alloc] initWithTitle:@"Estimate" message:@"Stage Your Home from $150 with a White Orchid Design Coordinator" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+            [stagePriceView show];
+            //[EstimateResult setText:@"Stage Your Home from $150 with a White Orchid Design Coordinator"];
         } else {
-            [EstimateResult setText:[NSString stringWithFormat:@"Cost = %d", total]];
+            UIAlertView *stagePriceView = [[UIAlertView alloc] initWithTitle:@"Estimate" message:[NSString stringWithFormat:@"White Orchid can stage your home for $%d or less!  A White Orchid staff member will be contacting you about your project.", total] delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+            [stagePriceView show];
+            //[EstimateResult setText:[NSString stringWithFormat:@"Cost = %d", total]];
             
             NSString *quotedAmount = [NSString stringWithFormat:@"Quoted Amount = %d", total];
             NSString *serviceAmount = [NSString stringWithFormat:@"<br/>Service Fee = %d", servicefee];

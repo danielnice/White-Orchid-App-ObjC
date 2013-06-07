@@ -174,8 +174,8 @@
                                             <segment title="Modern"/>
                                         </segments>
                                     </segmentedControl>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Result" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NEM-cI-y7y">
-                                        <rect key="frame" x="20" y="238" width="110" height="27"/>
+                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Result" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NEM-cI-y7y">
+                                        <rect key="frame" x="242" y="7" width="110" height="27"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
                                         <color key="textColor" red="0.62745100259999997" green="0.6549019814" blue="0.59215688710000003" alpha="1" colorSpace="deviceRGB"/>
