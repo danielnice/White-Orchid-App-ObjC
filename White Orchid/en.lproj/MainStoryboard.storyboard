@@ -258,17 +258,17 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" alwaysBounceHorizontal="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" id="5UJ-Up-p67">
                                 <rect key="frame" x="0.0" y="0.0" width="1280" height="499"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="jpeg-1.jpeg" id="3mG-PA-p5C">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="499"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="jpeg-1.jpeg" id="3mG-PA-p5C">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="jpeg-2.jpeg" id="5p1-SV-KH2">
-                                        <rect key="frame" x="320" y="0.0" width="320" height="499"/>
+                                        <rect key="frame" x="320" y="0.0" width="320" height="568"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="jpeg-3.jpeg" id="Q26-K9-uJW">
-                                        <rect key="frame" x="640" y="0.0" width="320" height="499"/>
+                                        <rect key="frame" x="640" y="0.0" width="320" height="568"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="jpeg-4.jpeg" id="7KA-sW-JSX">
-                                        <rect key="frame" x="960" y="0.0" width="320" height="499"/>
+                                        <rect key="frame" x="960" y="0.0" width="320" height="568"/>
                                     </imageView>
                                 </subviews>
                                 <userDefinedRuntimeAttributes>
@@ -296,10 +296,10 @@
     </scenes>
     <resources>
         <image name="first.png" width="30" height="30"/>
-        <image name="jpeg-1.jpeg" width="977" height="730"/>
-        <image name="jpeg-2.jpeg" width="977" height="730"/>
-        <image name="jpeg-3.jpeg" width="977" height="730"/>
-        <image name="jpeg-4.jpeg" width="977" height="730"/>
+        <image name="jpeg-1.jpeg" width="411" height="730"/>
+        <image name="jpeg-2.jpeg" width="411" height="730"/>
+        <image name="jpeg-3.jpeg" width="411" height="730"/>
+        <image name="jpeg-4.jpeg" width="411" height="730"/>
         <image name="second" width="16" height="16"/>
     </resources>
     <classes>

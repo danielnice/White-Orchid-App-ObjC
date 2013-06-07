@@ -16,7 +16,6 @@
 		21CA4430174F1A80004B8E95 /* jpeg-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 21CA442A174F1A80004B8E95 /* jpeg-1.jpeg */; };
 		21CA4431174F1A80004B8E95 /* jpeg-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 21CA442B174F1A80004B8E95 /* jpeg-3.jpeg */; };
 		21CA4432174F1A80004B8E95 /* jpeg-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 21CA442C174F1A80004B8E95 /* jpeg-2.jpeg */; };
-		21CA4433174F1A80004B8E95 /* jpeg-5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 21CA442D174F1A80004B8E95 /* jpeg-5.jpeg */; };
 		21CA4434174F1A80004B8E95 /* jpeg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 21CA442E174F1A80004B8E95 /* jpeg.jpeg */; };
 		21CA443A174F21EB004B8E95 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21CA4439174F21EB004B8E95 /* Icon@2x.png */; };
 		21CA443C174F21F4004B8E95 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 21CA443B174F21F4004B8E95 /* Icon.png */; };
@@ -45,7 +44,6 @@
 		21CA442A174F1A80004B8E95 /* jpeg-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jpeg-1.jpeg"; sourceTree = "<group>"; };
 		21CA442B174F1A80004B8E95 /* jpeg-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jpeg-3.jpeg"; sourceTree = "<group>"; };
 		21CA442C174F1A80004B8E95 /* jpeg-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jpeg-2.jpeg"; sourceTree = "<group>"; };
-		21CA442D174F1A80004B8E95 /* jpeg-5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jpeg-5.jpeg"; sourceTree = "<group>"; };
 		21CA442E174F1A80004B8E95 /* jpeg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jpeg.jpeg; sourceTree = "<group>"; };
 		21CA4439174F21EB004B8E95 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
 		21CA443B174F21F4004B8E95 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
@@ -118,7 +116,6 @@
 				21CA442A174F1A80004B8E95 /* jpeg-1.jpeg */,
 				21CA442B174F1A80004B8E95 /* jpeg-3.jpeg */,
 				21CA442C174F1A80004B8E95 /* jpeg-2.jpeg */,
-				21CA442D174F1A80004B8E95 /* jpeg-5.jpeg */,
 				21CA442E174F1A80004B8E95 /* jpeg.jpeg */,
 			);
 			name = Gallery;
@@ -231,7 +228,6 @@
 				21CA4430174F1A80004B8E95 /* jpeg-1.jpeg in Resources */,
 				21CA4431174F1A80004B8E95 /* jpeg-3.jpeg in Resources */,
 				21CA4432174F1A80004B8E95 /* jpeg-2.jpeg in Resources */,
-				21CA4433174F1A80004B8E95 /* jpeg-5.jpeg in Resources */,
 				21CA4434174F1A80004B8E95 /* jpeg.jpeg in Resources */,
 				21CA443A174F21EB004B8E95 /* Icon@2x.png in Resources */,
 				21CA443C174F21F4004B8E95 /* Icon.png in Resources */,
