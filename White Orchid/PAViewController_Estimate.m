@@ -40,6 +40,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    UITapGestureRecognizer *ScreenTap = [[UITapGestureRecognizer alloc]
+        initWithTarget:self
+        action:@selector(dismissKeyboard)];
+    
+    [self.view addGestureRecognizer:ScreenTap];
 }
 
 - (void)didReceiveMemoryWarning
@@ -47,6 +52,16 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+-(void)dismissKeyboard {
+    [EstimateName resignFirstResponder];
+    [EstimateEmail resignFirstResponder];
+    [EstimatePhone resignFirstResponder];
+    [EstimateListPrice resignFirstResponder];
+}
+
+
+
 
 
 - (IBAction)buttonPressed:(id)sender {
@@ -72,27 +87,27 @@
     float GreatRoom;
     float BreakfastNook;
     float Patio;
-    if([EstimateSelectBasement isOn] == YES){
+    if([EstimateSelectBasement selectedSegmentIndex] == 0){
         Basement = 2;
     } else {
         Basement = 0;
     }
-    if([EstimateSelectOffice isOn] == YES){
+    if([EstimateSelectOffice selectedSegmentIndex] == 0){
         Office = 0.5;
     } else {
         Office = 0;
     }
-    if([EstimateSelectGreatRoom isOn] == YES){
+    if([EstimateSelectGreatRoom selectedSegmentIndex] == 0){
         GreatRoom = 1;
     } else {
         GreatRoom = 0;
     }
-    if([EstimateSelectBreakfastNook isOn] == YES){
+    if([EstimateSelectBreakfastNook selectedSegmentIndex] == 0){
         BreakfastNook = 1;
     } else {
         BreakfastNook = 0;
     }
-    if([EstimateSelectPatio isOn] == YES){
+    if([EstimateSelectPatio selectedSegmentIndex] == 0){
         Patio = 1;
     } else {
         Patio = 0;
@@ -140,7 +155,7 @@
         } else {
             servicemuiltiplyer = 2;
         }
-    } else if([StateSelect selectedSegmentIndex] == 1){ //California
+    } else { //California
         //Calulate Dollar Muiltiplyer for CA
         if (ListValueInt < 2000000) {
             dollar = 400;
@@ -171,7 +186,7 @@
         UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Error" message:@"You forgot to enter a list price" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
         [alertView show];
     } else {
-        if ([EstimateVacant isOn] == YES) {
+        if ([EstimateVacant selectedSegmentIndex] == 1) {
             UIAlertView *stagePriceView = [[UIAlertView alloc] initWithTitle:@"Estimate" message:@"Stage Your Home from $150 with a White Orchid Design Coordinator" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
             [stagePriceView show];
             //[EstimateResult setText:@"Stage Your Home from $150 with a White Orchid Design Coordinator"];

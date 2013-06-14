@@ -10,21 +10,26 @@
 
 @interface PAViewController_Estimate : UIViewController
 
+
+
+
+
+
 @property (weak, nonatomic) IBOutlet UIButton *EstimateSubmit;
 - (IBAction)buttonPressed:(id)sender;
 
 @property (weak, nonatomic) IBOutlet UITextField *EstimateName;
-@property (weak, nonatomic) IBOutlet NSLayoutConstraint *EstimatePhone;
+@property (weak, nonatomic) IBOutlet UITextField *EstimatePhone;
+
 @property (weak, nonatomic) IBOutlet UITextField *EstimateEmail;
 @property (weak, nonatomic) IBOutlet UITextField *EstimateListPrice;
 
-
-@property (weak, nonatomic, getter=isOn) IBOutlet UISwitch *EstimateVacant;
-@property (weak, nonatomic, getter=isOn) IBOutlet UISwitch *EstimateSelectOffice;
-@property (weak, nonatomic, getter=isOn) IBOutlet UISwitch *EstimateSelectGreatRoom;
-@property (weak, nonatomic, getter=isOn) IBOutlet UISwitch *EstimateSelectBreakfastNook;
-@property (weak, nonatomic, getter=isOn) IBOutlet UISwitch *EstimateSelectBasement;
-@property (weak, nonatomic, getter=isOn) IBOutlet UISwitch *EstimateSelectPatio;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *EstimateVacant;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *EstimateSelectOffice;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *EstimateSelectGreatRoom;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *EstimateSelectBreakfastNook;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *EstimateSelectBasement;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *EstimateSelectPatio;
 
 @property (weak, nonatomic) IBOutlet UISegmentedControl *EstimateStyle;
 
