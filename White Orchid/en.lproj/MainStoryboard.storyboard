@@ -139,6 +139,15 @@
                                         <rect key="frame" x="222" y="374" width="79" height="27"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </switch>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="waI-Ug-YlJ" userLabel="Vacant Select">
+                                        <rect key="frame" x="105" y="372" width="95" height="30"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <segments>
+                                            <segment title="Yes"/>
+                                            <segment title="No"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.35372797406187612" green="0.40672831632653061" blue="0.30955816670375769" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Is your home vacant?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="E0I-3d-d1W">
                                         <rect key="frame" x="10" y="384" width="163" height="21"/>
                                         <autoresizingMask key="autoresizingMask"/>
@@ -150,6 +159,15 @@
                                         <rect key="frame" x="223" y="409" width="79" height="27"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </switch>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="fd2-ta-PNi" userLabel="Office Select">
+                                        <rect key="frame" x="113" y="405" width="95" height="30"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <segments>
+                                            <segment title="Yes"/>
+                                            <segment title="No"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.35372797410000001" green="0.4067283163" blue="0.30955816670000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Office" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vvg-Cv-1Yb">
                                         <rect key="frame" x="61" y="413" width="45" height="21"/>
                                         <autoresizingMask key="autoresizingMask"/>
@@ -161,6 +179,15 @@
                                         <rect key="frame" x="223" y="469" width="79" height="27"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </switch>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="6vT-Es-kGb" userLabel="Great Room Select">
+                                        <rect key="frame" x="136" y="467" width="95" height="30"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <segments>
+                                            <segment title="Yes"/>
+                                            <segment title="No"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.35372797410000001" green="0.4067283163" blue="0.30955816670000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Great Room" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CnH-4I-Lff">
                                         <rect key="frame" x="61" y="469" width="93" height="21"/>
                                         <autoresizingMask key="autoresizingMask"/>
@@ -172,6 +199,15 @@
                                         <rect key="frame" x="223" y="520" width="79" height="27"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </switch>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="F21-P7-o8N" userLabel="Breakfast Nook Select">
+                                        <rect key="frame" x="156" y="516" width="95" height="30"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <segments>
+                                            <segment title="Yes"/>
+                                            <segment title="No"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.35372797410000001" green="0.4067283163" blue="0.30955816670000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Breakfast Nook" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SYO-HS-DkG">
                                         <rect key="frame" x="61" y="520" width="117" height="21"/>
                                         <autoresizingMask key="autoresizingMask"/>
@@ -183,6 +219,15 @@
                                         <rect key="frame" x="223" y="562" width="79" height="27"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </switch>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="Ffv-S4-mbA" userLabel="Basement Thearter Select">
+                                        <rect key="frame" x="156" y="560" width="95" height="30"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <segments>
+                                            <segment title="Yes"/>
+                                            <segment title="No"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.35372797410000001" green="0.4067283163" blue="0.30955816670000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Basement or Theater" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PrG-zF-AHC">
                                         <rect key="frame" x="27" y="565" width="160" height="21"/>
                                         <autoresizingMask key="autoresizingMask"/>
@@ -194,6 +239,15 @@
                                         <rect key="frame" x="223" y="597" width="79" height="27"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </switch>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="Jaf-On-NZx" userLabel="Patio Select">
+                                        <rect key="frame" x="156" y="593" width="95" height="30"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <segments>
+                                            <segment title="Yes"/>
+                                            <segment title="No"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.35372797410000001" green="0.4067283163" blue="0.30955816670000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Patio Furniture" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2z1-S8-wCi">
                                         <rect key="frame" x="61" y="597" width="112" height="21"/>
                                         <autoresizingMask key="autoresizingMask"/>
@@ -201,29 +255,24 @@
                                         <color key="textColor" red="0.62745100259999997" green="0.6549019814" blue="0.59215688710000003" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="rU2-tI-9za">
-                                        <rect key="frame" x="1" y="706" width="321" height="44"/>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="rU2-tI-9za">
+                                        <rect key="frame" x="1" y="713" width="321" height="30"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <segments>
                                             <segment title="Traditional"/>
                                             <segment title="Contemporary"/>
                                             <segment title="Modern"/>
                                         </segments>
+                                        <color key="tintColor" red="0.35372797410000001" green="0.4067283163" blue="0.30955816670000003" alpha="1" colorSpace="calibratedRGB"/>
                                     </segmentedControl>
-                                    <label hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Result" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NEM-cI-y7y">
-                                        <rect key="frame" x="242" y="7" width="110" height="27"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
-                                        <color key="textColor" red="0.62745100259999997" green="0.6549019814" blue="0.59215688710000003" alpha="1" colorSpace="deviceRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="TZD-lr-WLZ" userLabel="State Select">
-                                        <rect key="frame" x="72" y="648" width="197" height="44"/>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="TZD-lr-WLZ" userLabel="State Select">
+                                        <rect key="frame" x="72" y="655" width="197" height="30"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <segments>
                                             <segment title="Colorado"/>
                                             <segment title="California"/>
                                         </segments>
+                                        <color key="tintColor" red="0.35372797410000001" green="0.4067283163" blue="0.30955816670000003" alpha="1" colorSpace="calibratedRGB"/>
                                     </segmentedControl>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="BG-BAr.png" id="dSM-EA-DdR">
                                         <rect key="frame" x="1" y="0.0" width="320" height="104"/>
@@ -277,7 +326,6 @@
                         <outlet property="EstimateEmail" destination="ttX-9Q-VKo" id="lzQ-MH-8nx"/>
                         <outlet property="EstimateListPrice" destination="I0z-Ki-MKU" id="rF2-ou-OZ4"/>
                         <outlet property="EstimateName" destination="fJ8-yP-Icy" id="Lrl-PV-x72"/>
-                        <outlet property="EstimateResult" destination="NEM-cI-y7y" id="e4K-Qa-7Of"/>
                         <outlet property="EstimateSelectBasement" destination="lLr-2G-LuH" id="9r6-Xr-5PN"/>
                         <outlet property="EstimateSelectBreakfastNook" destination="D9G-ws-MPv" id="rwG-51-fjE"/>
                         <outlet property="EstimateSelectGreatRoom" destination="OP1-aq-I9i" id="ABG-8p-kFe"/>
