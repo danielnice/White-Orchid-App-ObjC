@@ -64,28 +64,28 @@
                                 <autoresizingMask key="autoresizingMask"/>
                                 <subviews>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YiT-zN-H0s">
-                                        <rect key="frame" x="16" y="117" width="45" height="21"/>
+                                        <rect key="frame" x="15" y="117" width="45" height="21"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
                                         <color key="textColor" red="0.62745100259999997" green="0.6549019814" blue="0.59215688710000003" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Phone" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="x0b-gS-vjq">
-                                        <rect key="frame" x="16" y="177" width="46" height="21"/>
+                                        <rect key="frame" x="15" y="177" width="46" height="21"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
                                         <color key="textColor" red="0.62745100259999997" green="0.6549019814" blue="0.59215688710000003" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="E-Mail" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IlZ-1Q-tjc">
-                                        <rect key="frame" x="16" y="236" width="46" height="21"/>
+                                        <rect key="frame" x="15" y="236" width="46" height="21"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
                                         <color key="textColor" red="0.62745100259999997" green="0.6549019814" blue="0.59215688710000003" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Home List Price" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="19P-VM-OPV">
-                                        <rect key="frame" x="16" y="297" width="113" height="21"/>
+                                        <rect key="frame" x="15" y="297" width="113" height="21"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
                                         <color key="textColor" red="0.62745100259999997" green="0.6549019814" blue="0.59215688710000003" alpha="1" colorSpace="deviceRGB"/>
@@ -99,19 +99,19 @@
                                         <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                     </textField>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Field-EndCap.png" id="A8o-2Q-1j1">
-                                        <rect key="frame" x="16" y="140" width="20" height="36"/>
+                                        <rect key="frame" x="15" y="140" width="20" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Field-EndCap.png" id="xuW-Y8-gSQ">
-                                        <rect key="frame" x="16" y="199" width="20" height="36"/>
+                                        <rect key="frame" x="15" y="199" width="20" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Field-EndCap.png" id="j15-sR-rzH">
-                                        <rect key="frame" x="16" y="258" width="20" height="36"/>
+                                        <rect key="frame" x="15" y="258" width="20" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Field-EndCap.png" id="NPw-Hy-X25">
-                                        <rect key="frame" x="16" y="317" width="20" height="36"/>
+                                        <rect key="frame" x="15" y="317" width="20" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                     </imageView>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" background="Field-Body.png" clearButtonMode="whileEditing" id="WmI-zz-t8I" userLabel="Phone">
@@ -128,6 +128,15 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress"/>
                                     </textField>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="MX0-bK-aVY" userLabel="Vacant Select">
+                                        <rect key="frame" x="210" y="361" width="95" height="30"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <segments>
+                                            <segment title="Yes"/>
+                                            <segment title="No"/>
+                                        </segments>
+                                        <color key="tintColor" red="0.35372797410000001" green="0.4067283163" blue="0.30955816670000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </segmentedControl>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1000000" clearsOnBeginEditing="YES" minimumFontSize="17" background="Field-Body.png" clearButtonMode="whileEditing" id="I0z-Ki-MKU" userLabel="ListPrice">
                                         <rect key="frame" x="35" y="317" width="270" height="36"/>
                                         <autoresizingMask key="autoresizingMask"/>
@@ -135,32 +144,15 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad"/>
                                     </textField>
-                                    <switch opaque="NO" contentMode="scaleToFill" restorationIdentifier="" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="G3x-rO-JiV" userLabel="Vacant">
-                                        <rect key="frame" x="222" y="374" width="79" height="27"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                    </switch>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="waI-Ug-YlJ" userLabel="Vacant Select">
-                                        <rect key="frame" x="105" y="372" width="95" height="30"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <segments>
-                                            <segment title="Yes"/>
-                                            <segment title="No"/>
-                                        </segments>
-                                        <color key="tintColor" red="0.35372797406187612" green="0.40672831632653061" blue="0.30955816670375769" alpha="1" colorSpace="calibratedRGB"/>
-                                    </segmentedControl>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Is your home vacant?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="E0I-3d-d1W">
-                                        <rect key="frame" x="10" y="384" width="163" height="21"/>
+                                        <rect key="frame" x="15" y="365" width="163" height="21"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
                                         <color key="textColor" red="0.62745100259999997" green="0.6549019814" blue="0.59215688710000003" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="ons-nC-Bpw" userLabel="Office">
-                                        <rect key="frame" x="223" y="409" width="79" height="27"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                    </switch>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="fd2-ta-PNi" userLabel="Office Select">
-                                        <rect key="frame" x="113" y="405" width="95" height="30"/>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="1" id="fd2-ta-PNi" userLabel="Office Select">
+                                        <rect key="frame" x="210" y="399" width="95" height="30"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <segments>
                                             <segment title="Yes"/>
@@ -169,18 +161,14 @@
                                         <color key="tintColor" red="0.35372797410000001" green="0.4067283163" blue="0.30955816670000003" alpha="1" colorSpace="calibratedRGB"/>
                                     </segmentedControl>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Office" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vvg-Cv-1Yb">
-                                        <rect key="frame" x="61" y="413" width="45" height="21"/>
+                                        <rect key="frame" x="15" y="403" width="45" height="21"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
                                         <color key="textColor" red="0.62745100259999997" green="0.6549019814" blue="0.59215688710000003" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="OP1-aq-I9i" userLabel="Great Room">
-                                        <rect key="frame" x="223" y="469" width="79" height="27"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                    </switch>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="6vT-Es-kGb" userLabel="Great Room Select">
-                                        <rect key="frame" x="136" y="467" width="95" height="30"/>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="1" id="6vT-Es-kGb" userLabel="Great Room Select">
+                                        <rect key="frame" x="210" y="436" width="95" height="30"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <segments>
                                             <segment title="Yes"/>
@@ -189,18 +177,14 @@
                                         <color key="tintColor" red="0.35372797410000001" green="0.4067283163" blue="0.30955816670000003" alpha="1" colorSpace="calibratedRGB"/>
                                     </segmentedControl>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Great Room" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CnH-4I-Lff">
-                                        <rect key="frame" x="61" y="469" width="93" height="21"/>
+                                        <rect key="frame" x="15" y="440" width="93" height="21"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
                                         <color key="textColor" red="0.62745100259999997" green="0.6549019814" blue="0.59215688710000003" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="D9G-ws-MPv" userLabel="Breakfast Nook">
-                                        <rect key="frame" x="223" y="520" width="79" height="27"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                    </switch>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="F21-P7-o8N" userLabel="Breakfast Nook Select">
-                                        <rect key="frame" x="156" y="516" width="95" height="30"/>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="1" id="F21-P7-o8N" userLabel="Breakfast Nook Select">
+                                        <rect key="frame" x="210" y="473" width="95" height="30"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <segments>
                                             <segment title="Yes"/>
@@ -209,18 +193,14 @@
                                         <color key="tintColor" red="0.35372797410000001" green="0.4067283163" blue="0.30955816670000003" alpha="1" colorSpace="calibratedRGB"/>
                                     </segmentedControl>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Breakfast Nook" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SYO-HS-DkG">
-                                        <rect key="frame" x="61" y="520" width="117" height="21"/>
+                                        <rect key="frame" x="15" y="477" width="117" height="21"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
                                         <color key="textColor" red="0.62745100259999997" green="0.6549019814" blue="0.59215688710000003" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="lLr-2G-LuH" userLabel="Basement Thearter">
-                                        <rect key="frame" x="223" y="562" width="79" height="27"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                    </switch>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="Ffv-S4-mbA" userLabel="Basement Thearter Select">
-                                        <rect key="frame" x="156" y="560" width="95" height="30"/>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="1" id="Ffv-S4-mbA" userLabel="Basement Thearter Select">
+                                        <rect key="frame" x="210" y="510" width="95" height="30"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <segments>
                                             <segment title="Yes"/>
@@ -229,18 +209,14 @@
                                         <color key="tintColor" red="0.35372797410000001" green="0.4067283163" blue="0.30955816670000003" alpha="1" colorSpace="calibratedRGB"/>
                                     </segmentedControl>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Basement or Theater" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PrG-zF-AHC">
-                                        <rect key="frame" x="27" y="565" width="160" height="21"/>
+                                        <rect key="frame" x="15" y="514" width="160" height="21"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
                                         <color key="textColor" red="0.62745100259999997" green="0.6549019814" blue="0.59215688710000003" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="AKN-C4-gL4" userLabel="Patio">
-                                        <rect key="frame" x="223" y="597" width="79" height="27"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                    </switch>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="Jaf-On-NZx" userLabel="Patio Select">
-                                        <rect key="frame" x="156" y="593" width="95" height="30"/>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="1" id="Jaf-On-NZx" userLabel="Patio Select">
+                                        <rect key="frame" x="210" y="547" width="95" height="30"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <segments>
                                             <segment title="Yes"/>
@@ -249,14 +225,14 @@
                                         <color key="tintColor" red="0.35372797410000001" green="0.4067283163" blue="0.30955816670000003" alpha="1" colorSpace="calibratedRGB"/>
                                     </segmentedControl>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Patio Furniture" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2z1-S8-wCi">
-                                        <rect key="frame" x="61" y="597" width="112" height="21"/>
+                                        <rect key="frame" x="15" y="551" width="112" height="21"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
                                         <color key="textColor" red="0.62745100259999997" green="0.6549019814" blue="0.59215688710000003" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="rU2-tI-9za">
-                                        <rect key="frame" x="1" y="713" width="321" height="30"/>
+                                        <rect key="frame" x="15" y="621" width="290" height="30"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <segments>
                                             <segment title="Traditional"/>
@@ -266,7 +242,7 @@
                                         <color key="tintColor" red="0.35372797410000001" green="0.4067283163" blue="0.30955816670000003" alpha="1" colorSpace="calibratedRGB"/>
                                     </segmentedControl>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="TZD-lr-WLZ" userLabel="State Select">
-                                        <rect key="frame" x="72" y="655" width="197" height="30"/>
+                                        <rect key="frame" x="15" y="584" width="290" height="30"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <segments>
                                             <segment title="Colorado"/>
@@ -274,7 +250,7 @@
                                         </segments>
                                         <color key="tintColor" red="0.35372797410000001" green="0.4067283163" blue="0.30955816670000003" alpha="1" colorSpace="calibratedRGB"/>
                                     </segmentedControl>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="BG-BAr.png" id="dSM-EA-DdR">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="BG-BAr.png" id="dSM-EA-DdR" userLabel="Image View - TopBar">
                                         <rect key="frame" x="1" y="0.0" width="320" height="104"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
@@ -292,13 +268,13 @@
                                         <color key="textColor" red="0.86274516580000005" green="0.89019614459999996" blue="0.82745105029999999" alpha="1" colorSpace="deviceRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2ul-vO-Mjt">
-                                        <rect key="frame" x="105" y="763" width="113" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="2ul-vO-Mjt">
+                                        <rect key="frame" x="15" y="661" width="285" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
-                                        <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="16"/>
-                                        <state key="normal" title="Run Calculation">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                        <state key="normal" title="Create Estimate">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="highlighted">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -308,6 +284,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
+                                <gestureRecognizers/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
                                         <size key="value" width="320" height="1000"/>
@@ -326,14 +303,15 @@
                         <outlet property="EstimateEmail" destination="ttX-9Q-VKo" id="lzQ-MH-8nx"/>
                         <outlet property="EstimateListPrice" destination="I0z-Ki-MKU" id="rF2-ou-OZ4"/>
                         <outlet property="EstimateName" destination="fJ8-yP-Icy" id="Lrl-PV-x72"/>
-                        <outlet property="EstimateSelectBasement" destination="lLr-2G-LuH" id="9r6-Xr-5PN"/>
-                        <outlet property="EstimateSelectBreakfastNook" destination="D9G-ws-MPv" id="rwG-51-fjE"/>
-                        <outlet property="EstimateSelectGreatRoom" destination="OP1-aq-I9i" id="ABG-8p-kFe"/>
-                        <outlet property="EstimateSelectOffice" destination="ons-nC-Bpw" id="ebl-ss-4cq"/>
-                        <outlet property="EstimateSelectPatio" destination="AKN-C4-gL4" id="480-eH-m5i"/>
+                        <outlet property="EstimatePhone" destination="WmI-zz-t8I" id="ASl-72-fza"/>
+                        <outlet property="EstimateSelectBasement" destination="Ffv-S4-mbA" id="bUj-9k-M7o"/>
+                        <outlet property="EstimateSelectBreakfastNook" destination="F21-P7-o8N" id="1T4-Ih-nDf"/>
+                        <outlet property="EstimateSelectGreatRoom" destination="6vT-Es-kGb" id="scd-a3-O6h"/>
+                        <outlet property="EstimateSelectOffice" destination="fd2-ta-PNi" id="l3z-l6-XEL"/>
+                        <outlet property="EstimateSelectPatio" destination="Jaf-On-NZx" id="IST-Xm-pyQ"/>
                         <outlet property="EstimateStyle" destination="rU2-tI-9za" id="bhS-nA-Uhi"/>
                         <outlet property="EstimateSubmit" destination="2ul-vO-Mjt" id="MhM-TM-nFx"/>
-                        <outlet property="EstimateVacant" destination="G3x-rO-JiV" id="cca-9e-9SO"/>
+                        <outlet property="EstimateVacant" destination="MX0-bK-aVY" id="dwf-2v-kp7"/>
                         <outlet property="StateSelect" destination="TZD-lr-WLZ" id="MQ7-9o-CXL"/>
                     </connections>
                 </viewController>
@@ -453,9 +431,6 @@
         <image name="jpeg-4.jpeg" width="411" height="730"/>
     </resources>
     <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
         <class className="PAViewController_Estimate" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/PAViewController_Estimate.h"/>
             <relationships>
@@ -463,16 +438,16 @@
                 <relationship kind="outlet" name="EstimateEmail" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="EstimateListPrice" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="EstimateName" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="EstimatePhone" candidateClass="NSLayoutConstraint"/>
+                <relationship kind="outlet" name="EstimatePhone" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="EstimateResult" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="EstimateSelectBasement" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="EstimateSelectBreakfastNook" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="EstimateSelectGreatRoom" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="EstimateSelectOffice" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="EstimateSelectPatio" candidateClass="UISwitch"/>
+                <relationship kind="outlet" name="EstimateSelectBasement" candidateClass="UISegmentedControl"/>
+                <relationship kind="outlet" name="EstimateSelectBreakfastNook" candidateClass="UISegmentedControl"/>
+                <relationship kind="outlet" name="EstimateSelectGreatRoom" candidateClass="UISegmentedControl"/>
+                <relationship kind="outlet" name="EstimateSelectOffice" candidateClass="UISegmentedControl"/>
+                <relationship kind="outlet" name="EstimateSelectPatio" candidateClass="UISegmentedControl"/>
                 <relationship kind="outlet" name="EstimateStyle" candidateClass="UISegmentedControl"/>
                 <relationship kind="outlet" name="EstimateSubmit" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="EstimateVacant" candidateClass="UISwitch"/>
+                <relationship kind="outlet" name="EstimateVacant" candidateClass="UISegmentedControl"/>
                 <relationship kind="outlet" name="StateSelect" candidateClass="UISegmentedControl"/>
             </relationships>
         </class>
