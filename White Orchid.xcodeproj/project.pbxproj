@@ -25,6 +25,14 @@
 		21CA4434174F1A80004B8E95 /* jpeg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 21CA442E174F1A80004B8E95 /* jpeg.jpeg */; };
 		21CA443A174F21EB004B8E95 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21CA4439174F21EB004B8E95 /* Icon@2x.png */; };
 		21CA443C174F21F4004B8E95 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 21CA443B174F21F4004B8E95 /* Icon.png */; };
+		21DB1905176AAB960057751B /* contact_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 21DB18FE176AAB960057751B /* contact_bg.png */; };
+		21DB1906176AAB960057751B /* icon_youtube.png in Resources */ = {isa = PBXBuildFile; fileRef = 21DB18FF176AAB960057751B /* icon_youtube.png */; };
+		21DB1907176AAB960057751B /* icon_linkedIn.png in Resources */ = {isa = PBXBuildFile; fileRef = 21DB1900176AAB960057751B /* icon_linkedIn.png */; };
+		21DB1908176AAB960057751B /* icon_facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 21DB1901176AAB960057751B /* icon_facebook.png */; };
+		21DB1909176AAB960057751B /* icon_mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 21DB1902176AAB960057751B /* icon_mail.png */; };
+		21DB190A176AAB960057751B /* icon_phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 21DB1903176AAB960057751B /* icon_phone.png */; };
+		21DB190B176AAB960057751B /* incon_twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 21DB1904176AAB960057751B /* incon_twitter.png */; };
+		21DB190F176AAF930057751B /* PAViewController_Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DB190E176AAF930057751B /* PAViewController_Contact.m */; };
 		E484FE551747E62C00576CE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E484FE541747E62C00576CE7 /* UIKit.framework */; };
 		E484FE571747E62C00576CE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E484FE561747E62C00576CE7 /* Foundation.framework */; };
 		E484FE591747E62C00576CE7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E484FE581747E62C00576CE7 /* CoreGraphics.framework */; };
@@ -59,6 +67,15 @@
 		21CA442E174F1A80004B8E95 /* jpeg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jpeg.jpeg; sourceTree = "<group>"; };
 		21CA4439174F21EB004B8E95 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
 		21CA443B174F21F4004B8E95 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		21DB18FE176AAB960057751B /* contact_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact_bg.png; sourceTree = "<group>"; };
+		21DB18FF176AAB960057751B /* icon_youtube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_youtube.png; sourceTree = "<group>"; };
+		21DB1900176AAB960057751B /* icon_linkedIn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_linkedIn.png; sourceTree = "<group>"; };
+		21DB1901176AAB960057751B /* icon_facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_facebook.png; sourceTree = "<group>"; };
+		21DB1902176AAB960057751B /* icon_mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_mail.png; sourceTree = "<group>"; };
+		21DB1903176AAB960057751B /* icon_phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_phone.png; sourceTree = "<group>"; };
+		21DB1904176AAB960057751B /* incon_twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incon_twitter.png; sourceTree = "<group>"; };
+		21DB190D176AAF930057751B /* PAViewController_Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAViewController_Contact.h; sourceTree = "<group>"; };
+		21DB190E176AAF930057751B /* PAViewController_Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAViewController_Contact.m; sourceTree = "<group>"; };
 		E484FE511747E62C00576CE7 /* White Orchid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "White Orchid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E484FE541747E62C00576CE7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E484FE561747E62C00576CE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -130,6 +147,7 @@
 		21CA4427174F1A67004B8E95 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				21DB190C176AAB9B0057751B /* Contact */,
 				2123A5EE1761A411005A225B /* About */,
 				2123A5E3176197ED005A225B /* Estimate */,
 				E484FE721747E62C00576CE7 /* first.png */,
@@ -153,6 +171,20 @@
 				21CA442E174F1A80004B8E95 /* jpeg.jpeg */,
 			);
 			name = Gallery;
+			sourceTree = "<group>";
+		};
+		21DB190C176AAB9B0057751B /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				21DB18FE176AAB960057751B /* contact_bg.png */,
+				21DB18FF176AAB960057751B /* icon_youtube.png */,
+				21DB1900176AAB960057751B /* icon_linkedIn.png */,
+				21DB1901176AAB960057751B /* icon_facebook.png */,
+				21DB1902176AAB960057751B /* icon_mail.png */,
+				21DB1903176AAB960057751B /* icon_phone.png */,
+				21DB1904176AAB960057751B /* incon_twitter.png */,
+			);
+			name = Contact;
 			sourceTree = "<group>";
 		};
 		E484FE481747E62B00576CE7 = {
@@ -189,6 +221,8 @@
 				E484FE631747E62C00576CE7 /* PAAppDelegate.h */,
 				E484FE641747E62C00576CE7 /* PAAppDelegate.m */,
 				E484FE6C1747E62C00576CE7 /* MainStoryboard.storyboard */,
+				21DB190D176AAF930057751B /* PAViewController_Contact.h */,
+				21DB190E176AAF930057751B /* PAViewController_Contact.m */,
 				E484FE821747F42F00576CE7 /* PAViewController_Estimate.h */,
 				E484FE831747F42F00576CE7 /* PAViewController_Estimate.m */,
 				E484FE5C1747E62C00576CE7 /* White Orchid-Info.plist */,
@@ -276,6 +310,13 @@
 				2123A5E91761A084005A225B /* BG-BAr.png in Resources */,
 				2123A5EC1761A40C005A225B /* About_Background.png in Resources */,
 				2123A5ED1761A40C005A225B /* Logo.png in Resources */,
+				21DB1905176AAB960057751B /* contact_bg.png in Resources */,
+				21DB1906176AAB960057751B /* icon_youtube.png in Resources */,
+				21DB1907176AAB960057751B /* icon_linkedIn.png in Resources */,
+				21DB1908176AAB960057751B /* icon_facebook.png in Resources */,
+				21DB1909176AAB960057751B /* icon_mail.png in Resources */,
+				21DB190A176AAB960057751B /* icon_phone.png in Resources */,
+				21DB190B176AAB960057751B /* incon_twitter.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +330,7 @@
 				E484FE611747E62C00576CE7 /* main.m in Sources */,
 				E484FE651747E62C00576CE7 /* PAAppDelegate.m in Sources */,
 				E484FE841747F42F00576CE7 /* PAViewController_Estimate.m in Sources */,
+				21DB190F176AAF930057751B /* PAViewController_Contact.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
