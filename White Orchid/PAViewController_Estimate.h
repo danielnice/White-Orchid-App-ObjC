@@ -10,11 +10,6 @@
 
 @interface PAViewController_Estimate : UIViewController
 
-
-
-
-
-
 @property (weak, nonatomic) IBOutlet UIButton *EstimateSubmit;
 - (IBAction)buttonPressed:(id)sender;
 

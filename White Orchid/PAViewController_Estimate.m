@@ -61,9 +61,6 @@
 }
 
 
-
-
-
 - (IBAction)buttonPressed:(id)sender {
     
     NSNumberFormatter *f = [[NSNumberFormatter alloc] init];
