@@ -45,7 +45,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="About" image="first.png" id="7"/>
+                    <tabBarItem key="tabBarItem" title="About" image="icon-about.png" id="7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
             </objects>
@@ -297,7 +297,7 @@
                         </subviews>
                         <color key="backgroundColor" white="0.20000000000000001" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Estimate" image="first.png" id="6"/>
+                    <tabBarItem key="tabBarItem" title="Estimate" image="icon-estimate.png" id="6"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="EstimateEmail" destination="ttX-9Q-VKo" id="lzQ-MH-8nx"/>
@@ -496,7 +496,7 @@ info@whiteorchidinteriors.com</string>
                         </subviews>
                         <color key="backgroundColor" white="0.20000000000000001" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Contact" image="first.png" id="OkU-Ux-6hT"/>
+                    <tabBarItem key="tabBarItem" title="Contact" image="icon-contact.png" id="OkU-Ux-6hT"/>
                     <navigationItem key="navigationItem" id="TlI-Vi-PfG"/>
                     <connections>
                         <outlet property="callCA" destination="ol9-ML-o1Z" id="pUQ-Da-L6i"/>
@@ -550,7 +550,7 @@ info@whiteorchidinteriors.com</string>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Gallery" image="first.png" id="yTl-X7-0ON"/>
+                    <tabBarItem key="tabBarItem" title="Gallery" image="icon-gallery.png" id="yTl-X7-0ON"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Ef-8u-wgD" sceneMemberID="firstResponder"/>
@@ -566,7 +566,10 @@ info@whiteorchidinteriors.com</string>
         <image name="Logo.png" width="166" height="164"/>
         <image name="contact_bg.png" width="915" height="1403"/>
         <image name="estimate-btn.jpg" width="579" height="61"/>
-        <image name="first.png" width="30" height="30"/>
+        <image name="icon-about.png" width="30" height="30"/>
+        <image name="icon-contact.png" width="30" height="30"/>
+        <image name="icon-estimate.png" width="30" height="30"/>
+        <image name="icon-gallery.png" width="30" height="30"/>
         <image name="icon_facebook.png" width="100" height="100"/>
         <image name="icon_linkedIn.png" width="100" height="100"/>
         <image name="icon_mail.png" width="64" height="64"/>
